@@ -12,14 +12,14 @@
 <body>
 	<nav class="navbar navbar-expand-lg bg-light">
 		<div class="container-fluid">
-			<a class="brand navbar-brand" href="#">CP</a>
+			<a class="brand navbar-brand" href="Index.html">CP</a>
 		    <div class="collapse navbar-collapse justify-content-end">
       			<ul class="navbar-nav">
         			<li class="nav-item">
-          				<a class="link nav-link active" aria-current="page" href="#">Home</a>
+          				<a class="link nav-link active" aria-current="page" href="Index.html">Home</a>
         			</li>
         			<li class="nav-item">
-          				<a class="link nav-link active" aria-current="page" href="#">About us</a>
+          				<a class="link nav-link active" aria-current="page" href="about.html">About us</a>
         			</li>
         			<li class="nav-item">
           				<a class=" link nav-link active" aria-current="page" href="#">Why us?</a>
@@ -28,26 +28,47 @@
           				<a class="link nav-link active" aria-current="page" href="#">Travel Updates</a>
         			</li>
         			<li class="nav-item">
-          				<a class="link nav-link active" aria-current="page" href="#">Contact Us</a>
+          				<a class="link nav-link active" aria-current="page" href="#" id="contact">Contact Us</a>
         			</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<div class="background container-fluid">
-		<div class="heading container-fluid">
+		<div class="heading container" id="hadline">
 			<h1>CAR POOLING MADE EASY</h1>
 			<h1>FIND RIDES AT LOW PRICES!</h1>
+			<form class="form1">
+				<div class="row g-1">
+					<div class="col">
+						<div class="form-group">
+							<input type="text" class="form-control form-control-lg" placeholder="DEPARTURE">
+						</div>
+					</div>	
+					<div class="col">
+						<div class="form-group">
+							<input type="text" class="form-control form-control-lg" placeholder="ARRIVAL">
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-group">
+							<input type="DATE" class="form-control form-control-lg" placeholder="Date">
+						</div>
+					</div>	
+					<div class="col">
+						<div class="form-group">
+							<input type="number" class="form-control form-control-lg" placeholder="PASSENGERS">
+						</div>
+					</div>			
+				</div>		
+			</form>
 		</div>
-	</div>
+	</div> 
 	<div class="search">
 		
 	</div>
 	<div class="search tab">
-		<h4>LEAVING FROM</h4>
-		<h4>GOING TO</h4>
-		<h4>DATE</h4>
-		<h4>PASSENGERS</h4>
+		
 	</div>
 	<div class="why">
 		<h1>WHY US?</h1>
