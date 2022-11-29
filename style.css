@@ -1,0 +1,55 @@
+html,body{
+	height: 100%;
+}
+
+.navbar{
+	
+}
+
+.brand{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 60px;
+	color: #33A7E8;
+	margin-left: 15%;
+}
+
+.link{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 17px;
+}
+
+#contact{
+	margin-right: 80px;
+}
+
+.background{
+	background-image: url("https://i.pinimg.com/originals/65/44/1f/65441fa6b55506f69d964cc16f93b248.gif");
+	height: 60%;
+	text-align: center;
+	font-family: 'Alfa Slab One', cursive;
+	text-shadow: 2px 2px 8px #FFFFFF;
+	margin-top: 0; 
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.heading{
+	padding-top: 50px;
+}
+
+.form1{
+	margin-top: 50px;
+}
+
+.about-us-heading{
+	text-align: center;
+	padding: 3%;
+}
+
+.about-us-box{
+	background-color: white;
+	text-align: center;
+	padding: 4% 5%;
+}
