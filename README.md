@@ -7,6 +7,7 @@ Car Pool Website using HTML, CSS, Bootstrap and JS
 1. Ability to pull the requests from the database using Wamp Server.
 2. User should not be allowed to register if he/she tries to provide the already registered email ID.
 3. Bug Fix - Past dates should not be accepted by the system.
+4. Implementation on the "Search button" to export all the details from the database.
 
 <h3>Prerequistes</h3>
 
