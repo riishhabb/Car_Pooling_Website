@@ -1,108 +1,113 @@
-/* Apply styles to the navigation bar */
-.navbar {
-  background-color: #f8f9fa; /* Light gray background color */
-}
+/* Other styles remain the same */
 
-.brand {
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 36px; /* Adjusted font size */
-  color: #33A7E8;
-  margin-left: 15px; /* Adjusted margin */
-}
-
-.link {
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 18px;
-}
-
-#contact {
-  margin-right: 20px; /* Adjusted margin */
-}
-
-/* Apply styles to the background */
+/* Background */
 .background {
-  background-image: url("https://i.pinimg.com/originals/65/44/1f/65441fa6b55506f69d964cc16f93b248.gif");
-  height: 60vh; /* Adjusted height */
-  text-align: center;
-  font-family: 'Alfa Slab One', cursive;
-  text-shadow: 2px 2px 8px #FFFFFF;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/65/44/1f/65441fa6b55506f69d964cc16f93b248.gif");
+    height: 60vh;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 2px 2px 8px #000000; /* Updated text shadow color */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black; /* Updated text color to black for better visibility */
+    padding: 20px;
 }
 
-/* Apply styles to the headings in the background */
-.heading h1 {
-  font-size: 48px; /* Adjusted font size */
+/* Why Us Section */
+.why, .about, .update, .contact {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #212529;
 }
 
-/* Apply styles to the form elements */
-.form1 .form-control {
-  font-size: 18px;
+/* About Us Section */
+.about {
+    text-align: justify; /* Justify the text for easy reading */
 }
 
-/* Apply styles to the "Why Us?" section */
+/* Contact Us Section */
+.contact {
+    text-align: justify; /* Justify the text for easy reading */
+}
+
+/* Adding Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Why Us Section */
 .why {
-  padding: 20px;
-  background-color: #f8f9fa; /* Light gray background color */
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    color: #212529;
+    margin-bottom: 20px;
+    text-align: center; /* Center the content */
 }
 
 .why h1 {
-  font-size: 36px;
+    font-size: 36px;
+    color: #212529;
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+    margin-bottom: 20px; /* Add spacing below the title */
 }
 
 .why h3 {
-  font-size: 24px;
+    font-size: 24px;
+    color: #33A7E8;
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
 }
 
 .why p {
-  font-size: 18px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
 }
 
-/* Apply styles to the "About Us" section */
+/* About Us Section */
 .about {
-  padding: 20px;
-  background-color: #f8f9fa; /* Light gray background color */
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    color: #212529;
+    margin-bottom: 20px;
+    text-align: center; /* Center the content */
 }
 
 .about h1 {
-  font-size: 36px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+    margin-bottom: 20px; /* Add spacing below the title */
 }
 
 .about p {
-  font-size: 18px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
 }
 
-/* Apply styles to the "Travel Updates" section */
-.update {
-  padding: 20px;
-  background-color: #f8f9fa; /* Light gray background color */
-}
-
-.update h1 {
-  font-size: 36px;
-}
-
-.update p {
-  font-size: 18px;
-}
-
-/* Apply styles to the "Contact Us" section */
+/* Contact Us Section */
 .contact {
-  padding: 20px;
-  background-color: #f8f9fa; /* Light gray background color */
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    color: #212529;
+    text-align: center; /* Center the content */
 }
 
 .contact h1 {
-  font-size: 36px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
+    margin-bottom: 20px; /* Add spacing below the title */
 }
 
 .contact p {
-  font-size: 18px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif; /* Apply custom font */
 }
 
-/* Apply styles to the copyright section */
-.cr {
-  text-align: center;
-  margin-top: 20px; /* Adjusted margin */
+.contact p:last-child {
+    margin-bottom: 0;
 }
+
