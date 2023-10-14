@@ -1,55 +1,108 @@
-html,body{
-	height: 100%;
+/* Apply styles to the navigation bar */
+.navbar {
+  background-color: #f8f9fa; /* Light gray background color */
 }
 
-.navbar{
-	
+.brand {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 36px; /* Adjusted font size */
+  color: #33A7E8;
+  margin-left: 15px; /* Adjusted margin */
 }
 
-.brand{
-	font-family: 'Alfa Slab One', cursive;
-	font-size: 60px;
-	color: #33A7E8;
-	margin-left: 15%;
+.link {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 18px;
 }
 
-.link{
-	font-family: 'Alfa Slab One', cursive;
-	font-size: 17px;
+#contact {
+  margin-right: 20px; /* Adjusted margin */
 }
 
-#contact{
-	margin-right: 80px;
+/* Apply styles to the background */
+.background {
+  background-image: url("https://i.pinimg.com/originals/65/44/1f/65441fa6b55506f69d964cc16f93b248.gif");
+  height: 60vh; /* Adjusted height */
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  text-shadow: 2px 2px 8px #FFFFFF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.background{
-	background-image: url("https://i.pinimg.com/originals/65/44/1f/65441fa6b55506f69d964cc16f93b248.gif");
-	height: 60%;
-	text-align: center;
-	font-family: 'Alfa Slab One', cursive;
-	text-shadow: 2px 2px 8px #FFFFFF;
-	margin-top: 0; 
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+/* Apply styles to the headings in the background */
+.heading h1 {
+  font-size: 48px; /* Adjusted font size */
 }
 
-.heading{
-	padding-top: 50px;
+/* Apply styles to the form elements */
+.form1 .form-control {
+  font-size: 18px;
 }
 
-.form1{
-	margin-top: 50px;
+/* Apply styles to the "Why Us?" section */
+.why {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background color */
 }
 
-.about-us-heading{
-	text-align: center;
-	padding: 3%;
+.why h1 {
+  font-size: 36px;
 }
 
-.about-us-box{
-	background-color: white;
-	text-align: center;
-	padding: 4% 5%;
+.why h3 {
+  font-size: 24px;
+}
+
+.why p {
+  font-size: 18px;
+}
+
+/* Apply styles to the "About Us" section */
+.about {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background color */
+}
+
+.about h1 {
+  font-size: 36px;
+}
+
+.about p {
+  font-size: 18px;
+}
+
+/* Apply styles to the "Travel Updates" section */
+.update {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background color */
+}
+
+.update h1 {
+  font-size: 36px;
+}
+
+.update p {
+  font-size: 18px;
+}
+
+/* Apply styles to the "Contact Us" section */
+.contact {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background color */
+}
+
+.contact h1 {
+  font-size: 36px;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+/* Apply styles to the copyright section */
+.cr {
+  text-align: center;
+  margin-top: 20px; /* Adjusted margin */
 }
